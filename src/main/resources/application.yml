@@ -1,0 +1,14 @@
+
+spring:
+ # 数据源配置
+  datasource:
+    ds1: #数据源1
+      driver-class-name: com.mysql.jdbc.Driver # mysql的驱动你可以配置别的关系型数据库
+      url: jdbc:mysql://118.89.109.168:3306/demo?useUnicode=true&characterEncoding=utf-8 #数据源地址
+      username: root # 用户名
+      password: 1027forroot* # 密码
+    ds2: # 数据源2
+      driver-class-name: com.mysql.jdbc.Driver # mysql的驱动你可以配置别的关系型数据库
+      url: jdbc:mysql://118.89.109.168:3306/educate-test?useUnicode=true&characterEncoding=utf-8 #数据源地址
+      username: root # 用户名
+      password: 1027forroot* # 密码
